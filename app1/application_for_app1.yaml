@@ -15,7 +15,7 @@ spec:
   source:
     path: app1
     repoURL: https://github.com/maksymlutskyi/git_study.git
-    targetRevision: HEAD
+    targetRevision: argocd
 
   syncPolicy:
     automated: # automated sync by default retries failed attempts 5 times with following delays between attempts ( 5s, 10s, 20s, 40s, 80s ); retry controlled using `retry` field.
